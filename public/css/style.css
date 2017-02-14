@@ -1,0 +1,139 @@
+body {
+  font: 1em "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+}
+
+header{
+	background-color: #40ca50;
+	padding: 10px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px 0 5px;
+}
+
+header a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+h1{
+	text-align: left;
+	padding: 0 0 0 10px;
+	font-style: italic;
+	color: #337ab7;
+}
+
+#loadData{
+  padding: 2em;
+  background-color: #337ab7;
+  font-size: 1em;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+#getTemp{
+ 
+}
+
+#getTemp, #updateTemp{
+  padding: 3em;
+}
+
+#myTemp {
+  font-size: 4em;
+}
+
+#core{
+	margin: 0 4% 0 4%;
+	width: 90%;
+	padding: 1%;
+	/*background-color: #E6E6FA;*/
+}
+
+#outsideWeather{
+	float: right;
+	width: 25%;
+	height: 250px;
+	text-align: center;
+	font-family: Helvetica;
+	padding-top: 20px;
+	color: white;
+	 text-shadow: 2px 2px black;
+}
+
+#city{
+	font-size: 1.5em;
+}
+
+#outside_temp{
+	font-size: 4em;
+}
+
+#currentTemp{
+	min-height: 300px;
+	background-color: white;
+	column-width: 100px;
+}
+
+#homeTemp{
+	border: solid 2px black;
+	border-radius: 10px;
+	width: 70%;
+}
+
+#homeTemp_header{
+	background-color: #40ca50;
+	border-bottom: solid 2px black;
+	border-radius: 10px 10px 0 0;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#updateTemp{
+	background-color: white;
+	border-top: solid 2px black;
+	border-radius:  0 0 10px 10px;
+}
+
+#profile_links{
+	float: right;
+}
+
+.signup{
+  text-align : center;
+  width : 50%;
+  height : auto;
+  margin : auto;
+}
+
+.reg_msg{
+  width : 60%;
+  height : auto;
+  margin : auto;
+}
+
+.input_group input{
+  height : 50px;
+  font-size : 17px;
+  margin : 0 0 19px 0;
+  padding : 12px 21px 12px 21px;
+  border : 1px solid #efefef;
+}
+
+.error{
+  color : red;
+  font-weight : bold;
+}
+
+
+.hideMe{
+	display: none;
+}
