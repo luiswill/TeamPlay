@@ -1,0 +1,20 @@
+//
+   Created by Luis on 14.02.2017.
+
+//- layout.jade
+doctype html
+html
+    head
+        block title
+            title The title
+            link(type="style" src="../public/css/style.css")
+        block scripts
+            script(type='text/javascript', src="http://code.jquery.com/jquery-1.10.1.min.js")
+
+            script(type='text/javascript', src='/socket.io/socket.io.js')
+    body
+        #content
+            block content
+        block footer
+            footer
+                span Copyright

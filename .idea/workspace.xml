@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa5a2134-7b2c-4cf5-b33c-748360f2cf1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/train.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layout.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/login.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/profile.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/register.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/train.pug" />
-    </list>
+    <list default="true" id="aa5a2134-7b2c-4cf5-b33c-748360f2cf1a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -363,12 +353,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487023239363</updated>
       <workItem from="1487023240562" duration="6204000" />
-      <workItem from="1487080682394" duration="13244000" />
+      <workItem from="1487080682394" duration="13446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19448000" />
+    <option name="totallyTimeSpent" value="19650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />

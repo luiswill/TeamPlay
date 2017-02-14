@@ -1,0 +1,47 @@
+extends layout.pug
+
+
+block scripts
+    script(type='text/javascript' src='http://code.jquery.com/jquery.min.js')
+    script(type='text/javascript', src="/bower_components/jquery.countdown/dist/jquery.countdown.js")
+    script(type='text/javascript').
+        $(document).ready(function() {
+            $('#trainButton').click(function(){
+                var countdownFinishes = new Date($.now());
+                countdownFinishes.setMinutes(countdownFinishes.getMinutes() + 2);
+                localStorage.setItem('countdownTrain', countdownFinishes);
+                $(this).addClass('hideMe');
+
+                $('#timer').countdown(countdownFinishes,
+                    function (event) {
+                    $(this).text(
+                        event.strftime('%H:%M:%S')
+                    );
+                 }).on('finish.countdown', function(event){
+                     $(this).html("You can train again");
+                     $('#trainButton').removeClass('hideMe');
+                });
+            });
+
+        });
+
+
+
+block content
+    p
+        | Train for player : #{user.username} with strength : #{user.strength} !
+        | Next training is at : #{user.nextDateTrain.getHours()}:#{user.nextDateTrain.getMinutes()}
+
+    p#test
+
+
+    p#timer
+
+
+
+    if user.nextDateTrain < new Date()
+        form(action="/train" method="post")
+            br
+            input(type="submit" name="trained" id="trainButton" value="Train")
+
+
